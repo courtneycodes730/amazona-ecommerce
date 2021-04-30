@@ -4,7 +4,7 @@ html {
 }
 body {
   margin: 0;
-  height: 100vh; /* vh = view height */
+  height: 100vh;
   font-size: 1.6rem;
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -54,12 +54,12 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #ff8000
+  color: #ff8000;
 }
 
 
 /* Header */
-header a{
+header a {
   color: #ffffff;
   padding: 1rem;
 }
@@ -112,5 +112,8 @@ img.medium {
 /* Rating */
 .rating span {
   color: #f0c040;
-  margin: 0.1rem
+  margin: 0.1rem;
+}
+.rating span:last-child {
+  color: #404040;
 }

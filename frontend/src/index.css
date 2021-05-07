@@ -14,7 +14,6 @@ body {
   height: 100%; /* for id root in ../public/index.html */
 }
 
-
 /* Layout */
 .grid-container {
   display: grid;
@@ -40,7 +39,6 @@ footer {
   color: #ffffff;
 }
 
-
 /* Common classes */
 h1 {
   font-size: 1.8rem;
@@ -56,7 +54,6 @@ a {
 a:hover {
   color: #ff8000;
 }
-
 
 /* Header */
 header a {
@@ -78,7 +75,9 @@ a.brand {
 .row.center {
   justify-content: center;
 }
-
+.row.top {
+  align-items: flex-start;
+}
 
 /* Image */
 img {
@@ -88,7 +87,6 @@ img.medium {
   max-width: 29rem;
   width: 100%;
 }
-
 
 /* Card */
 .card {
@@ -107,7 +105,6 @@ img.medium {
 .price {
   font-size: 2rem;
 }
-
 
 /* Rating */
 .rating span {

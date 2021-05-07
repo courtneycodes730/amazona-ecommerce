@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 
-// Timestamp 1:16:13 Part 8
+// Timestamp 1:31:38 Part 8
 
 function App() {
   return (
